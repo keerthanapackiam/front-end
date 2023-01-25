@@ -1,0 +1,191 @@
+*                                                /* universal selector */
+{
+box-sizing: border-box;
+padding: 0;
+margin: 0;
+}
+header{
+    padding: 30px ;
+    display: flex;
+    background-color:transparent;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+    
+}
+img{
+    width: 120px;
+}
+.logo
+{
+    cursor: pointer;
+   
+}
+header > button{
+    padding: 5px;
+    background-color: rgb(7, 219, 53);
+    color: rgb(207, 23, 23);
+    border-radius: 20px;
+    border:none;
+    cursor: pointer;
+    outline: none;
+
+}
+header > button:hover{
+    background-color: rgb(14, 138, 132);
+}
+ul{
+    display: flex;
+    text-decoration: none;
+}
+span{
+  padding: 10px; 
+  color: rgb(12, 11, 11);
+}
+span:hover{
+    border-bottom: 2px solid black;
+}
+/* wrapper */
+.wrapper{
+   background:url("https://thumbs.dreamstime.com/b/jpg-spelled-word-dice-letters-reflection-term-toy-cubes-bottom-studio-shot-white-background-46803015.jpg")no-repeat center center / cover ; 
+   width: 100%;
+   display: block;
+   position: relative;
+   z-index:1; 
+}
+.wrapper:before{
+    background-image: linear-gradient(to right,white,rgb(246, 245, 247),rgb(214, 208, 208)); 
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    content:'';
+    z-index: -1;
+} 
+/* menu */
+main{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10%;
+    color: aliceblue;
+}
+/* left */
+.left{
+   display: flex;
+   flex-direction: column;
+   
+    width:50%;
+}
+.left h1{
+    font-size: 40px;
+    color: tomato;
+}
+.left p{
+    margin: 30px 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 2;
+    color: greenyellow;
+}
+.down{
+    display: flex;
+    justify-content: space-around;
+}
+ .button{
+        width: 10%;
+        border-radius: 15px;
+        padding: 5px;
+         
+}
+.button > button{
+    padding: 5px;
+    background-color: rgb(11, 226, 61);
+    color: whitesmoke;
+    border-radius: 20px;
+    border:none;
+    cursor: pointer;
+    outline: none;
+    width:160px;
+
+}
+.up img{
+    width: 30px;
+}
+.image img{
+width: 30px;
+
+}
+
+ /* tickimg */
+ #container{
+    width:350px;
+    height:200px;
+    margin-top: 70px;
+    margin-left: 70px;
+ }
+ .card{
+    width: 350px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 20px;
+ }
+ .card:hover{
+    box-shadow:10px 10px 100px gray ;
+ }
+ .gray{
+    width:30px;
+ }
+ .blue{
+    display: none;
+    width:30px;
+ }
+ .card:hover .blue{
+    display: inline;
+ }
+ .card:hover .gray{
+display: none;
+ }
+ 
+ .line h5{
+    width: 20px;
+    color: black;
+ }
+ .user{
+    width:30px;
+ }
+ .micro1{
+    width: 20px;
+    height:10px;
+    border-radius: 10px;
+    background-color: rgb(230, 12, 49);
+ }
+ .micro2{
+    width: 20px;
+    height:10px;
+    border-radius: 10px;
+    background-color: rgb(0, 102, 255);
+ }
+ .micro3{
+    width: 20px;
+    height:10px;
+    border-radius: 10px;
+    background-color: rgb(255, 115, 0);
+ }
+ .micro4{
+    width: 20px;
+    height:10px;
+    border-radius: 10px;
+    background-color:red;
+ }
+   
+/* right */
+.right img{
+    width: 500px;
+    padding: 10px 0%;
+} 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
+     
+
+   
